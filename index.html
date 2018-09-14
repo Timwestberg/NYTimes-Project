@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Anton|PT+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>Document</title>
 </head>
 
@@ -27,7 +28,7 @@
     </header>
 
     <div class="container">
-        <div class="row">
+        <div class="row" id="first-r">
 
             <div class="col-12">
 
@@ -71,26 +72,26 @@
                                 <input type="text" class="form-control" id="endDate" placeholder="Ending year...">
                             </div>
 
-                            <button type="button" class="btn btn"><i class="fas fa-search"></i> Search</button>
+                            <button type="button" class="btn btn-light"><i class="fas fa-search"></i> Search</button>
 
-                            <button type="button" class="btn btn"><i class="fas fa-trash-alt"></i> Clear Result</button>
+                            <button type="button" class="btn btn-light"><i class="fas fa-trash-alt"></i> Clear Result</button>
 
                         </form>
+                    </div>
                     </div>
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row" id="row2">
                 <div class="col-12">
                     <div class="card">
 
                         <div class="card-header">
                             <i class="far fa-calendar-alt"></i> Top Articles
                         </div>
-                        
+
                         <div class="card-body">
-                            <p class="card-text" id="searchResult">With supporting text below as a natural lead-in to additional
-                                content.</p>
+                            <p class="card-text" id="searchResult">Articles will display here.</p>
 
                         </div>
                     </div>
@@ -100,7 +101,7 @@
 
 
 
-        
+<link type="javascript/text" href="assets/javascript/app.js" >
 </body>
 
 </html>
